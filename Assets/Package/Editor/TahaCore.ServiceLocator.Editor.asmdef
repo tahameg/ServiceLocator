@@ -1,0 +1,18 @@
+{
+    "name": "TahaCore.ServiceLocator.Editor",
+    "rootNamespace": "TahaCore.ServiceLocator.Editor",
+    "references": [
+        "GUID:345f9a20939d02646b7597dc67e3c74b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
