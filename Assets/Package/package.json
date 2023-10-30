@@ -1,0 +1,12 @@
+{
+    "name": "com.tahameg.servicelocator",
+    "version": "0.1.0",
+    "displayName": "A package that pricincludes an simple implementation of Service Locator",
+    "description": "This is an example package",
+    "unity": "2021.1",
+    "author": {
+      "name": "Taha Mert Gökdemir",
+      "email": "taha.m.gokdemir@gmail.com",
+      "url": "https://www.tahameg.com"
+    }
+  }
