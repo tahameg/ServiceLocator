@@ -1,0 +1,16 @@
+{
+    "name": "TahaCore.ServiceLocator.Demo",
+    "rootNamespace": "TahaCore.ServiceLocator.Demo",
+    "references": [
+        "GUID:345f9a20939d02646b7597dc67e3c74b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
