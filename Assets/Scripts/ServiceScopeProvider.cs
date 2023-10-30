@@ -14,15 +14,18 @@ namespace TahaCore.ServiceLocator.Demo
     {
         [SerializeField] ServiceContext context;
 
-        public static IServiceScope Scope { get; internal set; }
+        public IServiceScope Scope { get; internal set; }
+        public static ServiceScopeProvider Instance { get; internal set; }
 
         private void Awake()
         {
-            if (Scope != null)
+            if (Instance != null)
             {
                 return;
             }
-
+            
+            Instance = this;
+            
             if (context == ServiceContext.Development)
             {
                 Scope = new DevelopmentServiceScope();

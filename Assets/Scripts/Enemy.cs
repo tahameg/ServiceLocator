@@ -9,15 +9,17 @@ namespace TahaCore.ServiceLocator.Demo
         public int id;
         
         private IActorInfoLoader loader;
+        public ActorInfo Info;
+
         private void Awake()
         {
-            if (ServiceScopeProvider.Scope.TryGetService(out loader))
+            if (ServiceScopeProvider.Instance.Scope.TryGetService(out loader))
             {
-                var info = loader.GetActorInfo(id);
+                Info = loader.GetActorInfo(id);
                 Debug.Log("Enemy is loaded");
-                Debug.Log($"Enemy name: {info.Name}");
-                Debug.Log($"Enemy health: {info.Health}");
-                Debug.Log($"Enemy id: {info.Id}");
+                Debug.Log($"Enemy name: {Info.Name}");
+                Debug.Log($"Enemy health: {Info.Health}");
+                Debug.Log($"Enemy id: {Info.Id}");
             }
         }
         
